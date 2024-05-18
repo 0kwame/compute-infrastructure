@@ -22,11 +22,11 @@ This Terraform project sets up cloud infrastructure as detailed in the Compute s
 
 2. **Create Terraform Variable File"**
 
-   - Run ` echo 'local_ip_address = ""' > main.tfvars`
+   - Run ` echo 'local_ip_address = ""' > auto.tfvars`
 
 3. **Update IP Address:**
 
-   - Update your ip address in `main.tfvars` file. This ip address is needed in order to allow your ip to ssh into all instances in the future
+   - Update your ip address in `auto.tfvars` file. This ip address is needed in order to allow your ip to ssh into all instances in the future
 
 4. **Initialize Terraform Project:**
 
